@@ -1,0 +1,195 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260605202822
+Username: AzureAD\ShankerReddy
+RunAs User: AzureAD\ShankerReddy
+Configuration Name: 
+Machine: 2S8BXC4 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\software_installation\Microsoft_VS_Code\Microsoft VS Code\6a44c352bd\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 32968
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\terminal-log.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons:create heroku-postgresql:hobby-dev
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) (venv) PS C:\Personal_Docs\ws-code-development\FASTAPI> heroku addons:create heroku-postgresql:hobby-dev
+At line:1 char:8
++ (venv) PS C:\Personal_Docs\ws-code-development\FASTAPI> heroku addons ...
++        ~~
+Unexpected token 'PS' in expression or statement.
+At line:1 char:8
++ (venv) PS C:\Personal_Docs\ws-code-development\FASTAPI> heroku addons ...
++        ~~
+Unexpected token 'PS' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv)  »   Warning: heroku update available from 7.53.0 to 11.4.0.
+» : The term '»' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  »   Warning: heroku update available from 7.53.0 to 11.4.0.
++  ~
+    + CategoryInfo          : ObjectNotFound: (»:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+» : The term '»' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:2
++  »   Warning: heroku update available from 7.53.0 to 11.4.0.
++  ~
+    + CategoryInfo          : ObjectNotFound: (»:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) Creating heroku-postgresql:hobby-dev on ⬢ fastapi-reddy... !
+Creating : The term 'Creating' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Creating heroku-postgresql:hobby-dev on ⬢ fastapi-reddy... !
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Creating:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Creating : The term 'Creating' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name,
+or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Creating heroku-postgresql:hobby-dev on ⬢ fastapi-reddy... !
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Creating:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+]633;D]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku --version
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku update
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons:create heroku-postgresql:hobby-dev --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons:create heroku-postgresql:hobby-dev
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons:create heroku-postgresql:standard-0 --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku config:get DATABASE_URL --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku pg:wait --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons:create heroku-postgresql:standard-0 --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku config:get DATABASE_URL --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku pg:wait --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku ps:restart
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku logs -t
+
+(venv) TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku apps:info fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku logs -t
+
+(venv) TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) pip install email-validator
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) pip freeze > requirements.txt
+>> ParameterBinding(Out-File): name="InputObject"; value="annotated-doc==0.0.4"
+>> ParameterBinding(Out-File): name="InputObject"; value="annotated-types==0.7.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="anyio==4.13.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="bcrypt==5.0.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="cffi==2.0.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="click==8.4.1"
+>> ParameterBinding(Out-File): name="InputObject"; value="colorama==0.4.6"
+>> ParameterBinding(Out-File): name="InputObject"; value="cryptography==48.0.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="dnspython==2.8.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="ecdsa==0.19.2"
+>> ParameterBinding(Out-File): name="InputObject"; value="email-validator==2.3.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="fastapi==0.136.3"
+>> ParameterBinding(Out-File): name="InputObject"; value="greenlet==3.5.1"
+>> ParameterBinding(Out-File): name="InputObject"; value="h11==0.16.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="idna==3.16"
+>> ParameterBinding(Out-File): name="InputObject"; value="passlib==1.7.4"
+>> ParameterBinding(Out-File): name="InputObject"; value="psycopg2==2.9.12"
+>> ParameterBinding(Out-File): name="InputObject"; value="psycopg2-binary==2.9.12"
+>> ParameterBinding(Out-File): name="InputObject"; value="pyasn1==0.6.3"
+>> ParameterBinding(Out-File): name="InputObject"; value="pycparser==3.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="pydantic==2.13.4"
+>> ParameterBinding(Out-File): name="InputObject"; value="pydantic-settings==2.14.1"
+>> ParameterBinding(Out-File): name="InputObject"; value="pydantic_core==2.46.4"
+>> ParameterBinding(Out-File): name="InputObject"; value="python-dotenv==1.2.2"
+>> ParameterBinding(Out-File): name="InputObject"; value="python-jose==3.5.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="python-multipart==0.0.30"
+>> ParameterBinding(Out-File): name="InputObject"; value="rsa==4.9.1"
+>> ParameterBinding(Out-File): name="InputObject"; value="six==1.17.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="SQLAlchemy==2.0.50"
+>> ParameterBinding(Out-File): name="InputObject"; value="sqlmodel==0.0.38"
+>> ParameterBinding(Out-File): name="InputObject"; value="starlette==1.1.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="typing-inspection==0.4.2"
+>> ParameterBinding(Out-File): name="InputObject"; value="typing_extensions==4.15.0"
+>> ParameterBinding(Out-File): name="InputObject"; value="uvicorn==0.48.0"
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) git add requirements.txt
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) git commit -m "Add email-validator dependency for EmailStr"
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) git push heroku master
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku ps:restart
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku ps --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku pg:backups:capture --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku pg:backups:download --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku addons:destroy heroku-postgresql-animate-77712 --app fastapi-reddy --confirm fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku ps:scale web=0 --app fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) heroku apps:destroy fastapi-reddy --confirm fastapi-reddy
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) Start-Transcript -Path .\terminal-log.txt -Append
+Transcript started, output file is .\terminal-log.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
+(venv) Start-Transcript -Path .\history.txt -Append
+Transcript started, output file is .\history.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cPersonal_Docs\x5cws-code-development\x5cFASTAPIPS C:\Personal_Docs\ws-code-development\FASTAPI> ]633;B
